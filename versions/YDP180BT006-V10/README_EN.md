@@ -31,7 +31,7 @@
 
 OSPTEK **1.8″ 360×360 TFT** is a **QSPI** color display module driven by **ST77916**, with touch controller **CST816D**. The square resolution suits round wearables and compact HMI.
 
-Spec ID (repository name): `1.8-tft-360x360-qspi-st77916`
+Spec ID (repository name): `tft-1.8-360x360-qspi-st77916`
 
 Current module version: **YDP180BT006-V10**. Electrical and interface details follow [`docs/YDP_180_BT_006_V10_a22cc8dde1.pdf`](./docs/YDP_180_BT_006_V10_a22cc8dde1.pdf). Cover-glass outlines (YDP180BT008A-V10 / YDP180BT008B-V10) are listed under Resources and do not get their own branches.md`](./MODULE_VERSION.md)). Electrical and interface details follow [`docs/YDP_180_BT_006_V10_a22cc8dde1.pdf`](./docs/YDP_180_BT_006_V10_a22cc8dde1.pdf).
 
@@ -62,7 +62,7 @@ Current module version: **YDP180BT006-V10**. Electrical and interface details fo
 ## Repository layout
 
 ```text
-1.8-tft-360x360-qspi-st77916/                                # repo root (nav: ../../README_EN.md)
+tft-1.8-360x360-qspi-st77916/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── YDP180BT006-V10/                                # full materials for this part number
         ├── README.md

@@ -29,7 +29,7 @@ This repository holds materials for the **1.8″ 360×360 TFT (QSPI · ST77916)*
 
 The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
-Repo id: `1.8-tft-360x360-qspi-st77916`
+Repo id: `tft-1.8-360x360-qspi-st77916`
 
 ---
 
