@@ -1,0 +1,14 @@
+id: tft-1.8-360x360-qspi-st77916
+category: displays
+
+size: "1.8"
+panel: tft
+resolution: 360x360
+interface: [qspi]
+shape: round
+
+versions:
+  - id: YDP180BT006-V10
+    driver: ST77916
+    touch: CST816D
+    note: none
