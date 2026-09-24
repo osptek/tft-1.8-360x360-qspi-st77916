@@ -2,9 +2,9 @@
 
 <h1 align="center">OSPTEK 1.8″ TFT 360×360（ST77916 · QSPI）</h1>
 
-<p align="center"><b>TFT 模组 · QSPI · ST77916 · 多版本索引</b></p>
+<p align="center"><b>圆形 TFT · QSPI · ST77916</b></p>
 
-<p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
+<p align="center"><a href="./README_EN.md">English</a> | 简体中文 · <a href="../../README.md">规格族索引</a></p>
 
 <p align="center">
   <img alt="Size: 1.8 inch" src="https://img.shields.io/badge/Size-1.8%22-3498DB?style=flat-square" />
@@ -13,55 +13,60 @@
   <img alt="Driver: ST77916" src="https://img.shields.io/badge/Driver-ST77916-E7352C?style=flat-square" />
 </p>
 
+<p align="center"><img alt="OSPTEK 1.8 寸 360×360 TFT QSPI 模组（ST77916）宣传图" src="./images/product.png" width="640" /></p>
+
 ## 目录
 
-- [说明](#说明)
-- [版本一览](#版本一览)
-- [YDP180BT006-V10](#ydp180bt006-v10)
-- [YDP180BT007-V3](#ydp180bt007-v3)
+- [产品简介](#产品简介)
+- [规格参数](#规格参数)
+- [仓库结构](#仓库结构)
+- [相关资料](#相关资料)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
 ---
 
-## 说明
+## 产品简介
 
-本仓库收录 **1.8 寸 360×360 TFT（QSPI · ST77916）** 显示模组资料。
-
-**根目录 README 为导航页**。下表可快速浏览各版本；点击「完整资料」进入 `versions/` 下对应**料号文件夹**（产品页、规格书、示例均在该目录内）。
+OSPTEK **1.8 寸 360×360 TFT** 是一款 **QSPI** 接口圆形彩色显示模组，驱动为 **ST77916**，触摸为 **CST816D**。
 
 规格标识（仓库名）：`tft-1.8-360x360-qspi-st77916`
 
----
+当前模组版本：**YDP180BT007-V3**。电气与外形细节以 [`docs/YDP180BT007-V3.pdf`](./docs/YDP180BT007-V3.pdf) 为准。
 
-## 版本一览
+## 规格参数
 
-| 版本 | 宣传图 | 简介 | 完整资料 |
-| ---- | ------ | ---- | -------- |
-| YDP180BT007-V3 | <img alt="YDP180BT007-V3" src="./versions/YDP180BT007-V3/images/product.png" width="120" /> | [简介](#ydp180bt007-v3) | [完整资料](./versions/YDP180BT007-V3/) |
-| YDP180BT006-V10 | <img alt="YDP180BT006-V10" src="./versions/YDP180BT006-V10/images/product.png" width="120" /> | [简介](#ydp180bt006-v10) | [完整资料](./versions/YDP180BT006-V10/) |
+| 项目 | 规格 |
+| ---- | ---- |
+| 尺寸 | 1.8 英寸 |
+| 类型 | TFT（圆形 IPS） |
+| 分辨率 | 360×360 |
+| 接口 | QSPI |
+| 驱动 IC | ST77916 |
+| 触摸驱动 | CST816D |
 
----
+> 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
 
-## YDP180BT006-V10
+## 仓库结构
 
-<p align="center"><img alt="YDP180BT006-V10" src="./versions/YDP180BT006-V10/images/product.png" width="320" /></p>
+```text
+tft-1.8-360x360-qspi-st77916/             # 仓库根（导航见 ../../README.md）
+└── versions/
+    └── YDP180BT007-V3/                      # 本料号完整资料
+        ├── README.md
+        ├── README_EN.md
+        ├── images/
+        ├── docs/
+        └── examples/
+```
 
-**说明：** 模组，带触摸（CST816D）。
+## 相关资料
 
-完整产品页、规格书与示例：[versions/YDP180BT006-V10/](./versions/YDP180BT006-V10/)
+### 本产品资料
 
----
-
-## YDP180BT007-V3
-
-<p align="center"><img alt="YDP180BT007-V3" src="./versions/YDP180BT007-V3/images/product.png" width="320" /></p>
-
-**说明：** 带触摸（CST816D）。当前入库为外形图。
-
-完整产品页、规格书与示例：[versions/YDP180BT007-V3/](./versions/YDP180BT007-V3/)
-
----
+| 资料 | 链接 |
+| ---- | ---- |
+| 外形图（YDP180BT007-V3） | [`docs/YDP180BT007-V3.pdf`](./docs/YDP180BT007-V3.pdf) |
 
 ## 购买链接
 
@@ -78,8 +83,6 @@
 **海外（AliExpress）**
 
 - 店铺：[OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
-
----
 
 ## 技术支持
 

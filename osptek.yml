@@ -12,3 +12,7 @@ versions:
     driver: ST77916
     touch: CST816D
     note: none
+  - id: YDP180BT007-V3
+    driver: ST77916
+    touch: CST816D
+    note: Outline drawing; CST816D touch

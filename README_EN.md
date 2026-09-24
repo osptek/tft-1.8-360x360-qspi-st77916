@@ -18,6 +18,7 @@
 - [About](#about)
 - [Versions](#versions)
 - [YDP180BT006-V10](#ydp180bt006-v10)
+- [YDP180BT007-V3](#ydp180bt007-v3)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -37,6 +38,7 @@ Repo id: `tft-1.8-360x360-qspi-st77916`
 
 | Version | Image | Summary | Full docs |
 | ------- | ----- | ------- | --------- |
+| YDP180BT007-V3 | <img alt="YDP180BT007-V3" src="./versions/YDP180BT007-V3/images/product.png" width="120" /> | [Summary](#ydp180bt007-v3) | [Full docs](./versions/YDP180BT007-V3/) |
 | YDP180BT006-V10 | <img alt="YDP180BT006-V10" src="./versions/YDP180BT006-V10/images/product.png" width="120" /> | [Summary](#ydp180bt006-v10) | [Full docs](./versions/YDP180BT006-V10/) |
 
 ---
@@ -45,9 +47,19 @@ Repo id: `tft-1.8-360x360-qspi-st77916`
 
 <p align="center"><img alt="YDP180BT006-V10" src="./versions/YDP180BT006-V10/images/product.png" width="320" /></p>
 
-**Notes:** Bare panel.
+**Notes:** Module; with touch (CST816D).
 
 Full product page, datasheets, and examples: [versions/YDP180BT006-V10/](./versions/YDP180BT006-V10/)
+
+---
+
+## YDP180BT007-V3
+
+<p align="center"><img alt="YDP180BT007-V3" src="./versions/YDP180BT007-V3/images/product.png" width="320" /></p>
+
+**Notes:** With touch (CST816D). Outline drawing only for now.
+
+Full product page, datasheets, and examples: [versions/YDP180BT007-V3/](./versions/YDP180BT007-V3/)
 
 ---
 
